@@ -466,6 +466,7 @@ const getFileCount = async (path: string, octokit: Octokit, githubOwner: string,
         '.gitignore'
     ];
 
+    dddddd
     const allIgnoredFiles = [...defaultIgnoredFiles, ...ignoresFilesExtensions];
 
 

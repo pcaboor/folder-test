@@ -14,6 +14,7 @@ const getFileCount = async (path: string, octokit: Octokit, githubOwner: string,
         repo: githubRepo,
         path,
     };
+    ddd
 
     // Only add ref parameter if a branch is specified
     if (branch) {
